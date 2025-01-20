@@ -28,7 +28,7 @@ export default function App() {
           <a
             href="https://shiny-tarsier-6ef2be.netlify.app/"
             target="_blank"
-            ref="noreferrer"
+            rel="noreferrer"
           >
             Netlify
           </a>
