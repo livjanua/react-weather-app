@@ -1,9 +1,12 @@
 .Weather {
+  background-image: url("./images/background.jpg");
+  background-size: cover;
+  background-position: center;
   font-family: arial, sans-serif;
   border: 1px solid #dadde1;
   padding: 16px;
   border-radius: 4px;
-  color: rgb(135, 135, 135);
+  color: rgb(252, 251, 249);
 }
 
 .Weather h1 {
@@ -26,8 +29,8 @@
 }
 
 .Weather .temperature {
-  font-weight: bold;
-  color: rgb(33, 33, 33);
+  font-weight: lighter;
+  color: #f3c563;
   font-size: 64px;
   line-height: 64px;
   margin-left: 5px;
@@ -40,10 +43,29 @@
 }
 
 .Weather .unit {
-  color: rgb(33, 33, 33);
+  color: #f3c563;
   font-size: 16px;
   font-weight: 400;
   position: relative;
   line-height: 1;
   top: -34px;
+}
+
+.custom-btn {
+  background-color: white;
+  color: #595c5f;
+}
+
+.custom-btn:hover {
+  background-color: #f3c563;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 15px;
+  }
+
+  p {
+    font-size: 15px;
+  }
 }
